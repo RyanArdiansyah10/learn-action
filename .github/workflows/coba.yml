@@ -30,6 +30,6 @@ jobs:
         context: .
         with:
           context:
-          file: ./Dockerfile
+          file: Dockerfile
           push: true
           tags: ryanardiansyah10/learn-action:latest
