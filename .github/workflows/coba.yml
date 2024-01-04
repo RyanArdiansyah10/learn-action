@@ -27,9 +27,8 @@ jobs:
 
       - name: Build and pushDocker image
         uses: docker/build-push-action@v5
-        context: .
         with:
-          context:
+          context: .
           file: Dockerfile
           push: true
           tags: ryanardiansyah10/learn-action:latest
